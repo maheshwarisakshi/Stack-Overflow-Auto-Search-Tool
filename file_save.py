@@ -8,7 +8,7 @@ def close_program():
 
 def save_text():
     code = code_text.get("1.0", "end-1c")
-    file_path = r"C:\Users\hp\Downloads\Compressed\Stack_Overflow_Parser-master\Stack_Overflow_Parser-master\test.py"
+    file_path = r"C:\Users\hp\Downloads\Compressed\Stack_Overflow_Parser-master\Stack_Overflow_error\test.py"
     
     try:
         with open(file_path, "w") as file:
